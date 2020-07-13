@@ -1,0 +1,106 @@
+body{
+  padding:0;
+  margin:0;
+  background: #FFF;
+  font-family: 'Dosis', sans-serif;
+}
+
+body a{
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+input[type="button"],input[type="submit"]{
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lobster', cursive;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  line-height: 1.8em;
+  color: #999;
+  letter-spacing: 1px;
+  font-family: 'Dosis', sans-serif;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+label{
+  margin: 0;
+}
+
+button{
+  transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+img{
+  transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+section.banner-w3ls .banner-w3l-mk{
+position: absolute;
+z-index: 999;
+top: 4em;
+width: 100%;
+padding: 0 16em;
+}
+
+.logo-w3ls{
+  float: left;
+}
+.s3_agileits_header_text{
+  float: right;
+}
+
+section.banner-w3ls .logo-w3ls a{
+  text-decoration: none;
+}
+section.banner-w3ls .logo-w3ls a h1{
+  font-size: 3em;
+ /* color: #fff; */
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.s3_agileits_header_text h3{
+  color: #fff;
+  line-height: 3.5;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+.s3_agileits_header_text{
+  background: #2f8eff;
+  padding: 0 1em;
+  vertical-align: middle;
+}
+.s3_agileits_header_text i{
+  font-size: 2.5em;
+  vertical-align: middle;
+  padding-left: .3em;
+}
+

@@ -82,7 +82,7 @@ section.banner-w3ls .logo-w3ls a{
 }
 section.banner-w3ls .logo-w3ls a h1{
   font-size: 3em;
- /* color: #fff; */
+ color: #fff;
   font-style: italic;
   letter-spacing: 1px;
 }
@@ -298,6 +298,53 @@ width: 100%;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+}
+
+h3.w3l-title {
+  font-size: 3em;
+  text-align: center;
+  color: #000;
+  letter-spacing: 2px;
+  margin-bottom: 1.3em;
+}
+
+h3.w3l-title span{
+  color: #2f8eff;
+}
+
+.stats p{
+  text-align: center;
+  font-size: 1.3em;
+  width: 80%;
+  margin: 0 auto 2em;
+}
+
+.stats, .mail-w3l, .w3layouts_mail_grid_right, .service, .gallery, .team-w3l {
+  padding: 5em 0;
+}
+
+.stats-info{
+  text-align: center;
+}
+.stats h4 {
+  color: #2f8eff;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Dosis', sans-serif;
+  border-bottom: 1px solid #afacac;
+  padding: .5em 0;
+  border-radius: 12px;
+}
+.stats-grid {
+  font-size: 4em;
+  color: #000;
+}
+.stats-grid.slideanim i {
+  font-size: 40px !important;
+}
+h4.stats-info {
+margin-top: 20px;
 }
 
 

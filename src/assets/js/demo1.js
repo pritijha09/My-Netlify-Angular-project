@@ -1,5 +1,6 @@
 (function() {
-	var triggerBttn = document.getElementById( 'trigger-overlay' ),
+  setTimeout(() => {
+    var triggerBttn = document.getElementById( 'trigger-overlay' ),
 		overlay = document.querySelector( 'div.overlay' ),
 		closeBttn = overlay.querySelector( 'button.overlay-close' );
 		transEndEventNames = {
@@ -11,6 +12,8 @@
 		},
 		transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
 		support = { transitions : Modernizr.csstransitions };
+  }, 1000);
+
 
 	function toggleOverlay() {
 		if( classie.has( overlay, 'open' ) ) {

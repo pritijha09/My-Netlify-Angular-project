@@ -104,3 +104,201 @@ section.banner-w3ls .logo-w3ls a h1{
   padding-left: .3em;
 }
 
+section.banner-w3ls  button#trigger-overlay{
+  border: 1px solid #fff;
+  padding: 9px 13px;
+  outline: none;
+  background: transparent;
+  position: fixed;
+  top: 4em;
+  z-index: 999;
+  left: 9em;
+}
+section.banner-w3ls button#trigger-overlay i.fa{
+  font-size: 24px;
+  color: #f87900;
+  text-align: center;
+}
+section.banner-w3ls{
+  position: relative;
+}
+
+section.banner-w3ls .modal-content {
+  text-align: center;
+  text-align: -webkit-center;
+  text-align: -moz-center;
+}
+section.banner-w3ls .modal-header {
+background:#2f8eff;
+}
+section.banner-w3ls .modal-header h4 {
+  color: #fff;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+section.banner-w3ls .modal-footer {
+  background: #fff;
+  text-align: left;
+}
+section.banner-w3ls .modal-body p {
+padding:20px 0;
+}
+section.banner-w3ls button.close {
+  font-size: 60px;
+  font-weight: 300;
+  position: absolute;
+  right: 20px;
+  top: 1px;
+}
+section.banner-w3ls button.btn.btn-default {
+  font-size: 1em;
+  color: #fff;
+  background-color: #F87900;
+  letter-spacing: 1px;
+}
+.clearfix:before,
+.clearfix:after {
+content: " ";
+display: table;
+}
+.clearfix:after {
+clear: both;
+}
+.fl {
+float: left;
+}
+.row {
+width: 100%;
+}
+.grid12 {
+	float: left;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+.small12 {
+	width: 100%;
+}
+.small3 {
+	width: 25%;
+}
+.pogoSlider {
+    width: 100%;
+    height: 774px!important;
+}
+.pogoSlider-slide-element {
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    text-align:center;
+    margin-top: 21em!important;
+}
+.pogoSlider-slide-element h3 {
+    color: #fff!important;
+    font-size: 4em;
+    text-align: left;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+.pogoSlider-slide-element p {
+    color: #f0efef!important;
+    font-size: 17px;
+    text-align: left;
+	font-weight: 100;
+    padding: 1em 0 2em;
+}
+.pogoSlider-slide-element ul.banner-agileits {
+	padding-top:30px;
+	text-align:left;
+}
+.pogoSlider-slide-element ul.banner-agileits li {
+	list-style:none;
+	display:inline-block;
+	margin-right:5px;
+}
+.pogoSlider-slide-element ul.banner-agileits li a.link-w3l1 {
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    background-color: #F87900;
+    display: inline-block;
+    padding: .8em 2em;
+    letter-spacing: 1px;
+	text-decoration:none;
+}
+.pogoSlider-slide-element ul.banner-agileits li a.link-w3l1:hover {
+	background-color:#2f8eff;
+}
+.pogoSlider-slide-element ul.banner-agileits li a.link-w3l2{
+	font-size: 1em;
+    color: #fff;
+    text-align: center;
+    background-color: #2f8eff;
+    display: inline-block;
+    padding: .8em 2em;
+    letter-spacing: 1px;
+	text-decoration:none;
+}
+.pogoSlider-slide-element ul.banner-agileits li a.link-w3l2:hover {
+	background-color:#F87900;
+}
+.pogoSlider-slide-element a.btn-circle {
+    color:#F87900;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.pogoSlider-slide-element  a.btn-circle:hover,
+.pogoSlider-slide-element  a.btn-circle:focus {
+    text-decoration: none;
+    color: #2f8eff;
+}
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    line-height: 1.9;
+    margin-top: 3em;
+    border: 2px dotted #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    font-size: 2em;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+	color:#F87900;
+}
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+.btn {
+    text-transform: uppercase;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+
+
